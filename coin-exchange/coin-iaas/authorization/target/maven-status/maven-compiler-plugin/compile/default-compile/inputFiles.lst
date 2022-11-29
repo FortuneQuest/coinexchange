@@ -1,0 +1,7 @@
+D:\workPlace\coinexchange\coin-exchange\coin-iaas\authorization\src\main\java\cn\oc\AuthorizationApplication.java
+D:\workPlace\coinexchange\coin-exchange\coin-iaas\authorization\src\main\java\cn\oc\constant\LoginConstant.java
+D:\workPlace\coinexchange\coin-exchange\coin-iaas\authorization\src\main\java\cn\oc\config\AuthorizationServerConfig.java
+D:\workPlace\coinexchange\coin-exchange\coin-iaas\authorization\src\main\java\cn\oc\config\WebSecurityConfig.java
+D:\workPlace\coinexchange\coin-exchange\coin-iaas\authorization\src\main\java\cn\oc\config\ResourceServerConfig.java
+D:\workPlace\coinexchange\coin-exchange\coin-iaas\authorization\src\main\java\cn\oc\controller\UserInfoController.java
+D:\workPlace\coinexchange\coin-exchange\coin-iaas\authorization\src\main\java\cn\oc\service\impl\UserServiceDetailsServiceImpl.java

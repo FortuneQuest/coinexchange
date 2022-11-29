@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MybatisBuilder.project.settings">
+    <option name="connectionInfoList">
+      <list>
+        <ConnectionInfo>
+          <option name="database" value="coin-exchange" />
+          <option name="description" value="" />
+          <option name="driverClass" value="" />
+          <option name="driverLibrary" value="" />
+          <option name="driverType" value="MySQL" />
+          <option name="host" value="mysql-server" />
+          <option name="id" value="0cac0d6e10154ba5b9105c6c9f699bc0" />
+          <option name="name" value="unnamed" />
+          <option name="port" value="3307" />
+          <option name="url" value="" />
+          <option name="userName" value="root" />
+        </ConnectionInfo>
+      </list>
+    </option>
+    <option name="defaultParameters">
+      <DefaultParameters>
+        <option name="renameConfig">
+          <Config>
+            <option name="mapperTypePattern" value="" />
+            <option name="exampleTypePattern" value="" />
+            <option name="sqlFileNamePattern" value="" />
+          </Config>
+        </option>
+        <option name="selectWithLockConfig">
+          <SelectWithLockConfig>
+            <option name="byPrimaryKeyWithLockOverride" value="" />
+            <option name="byExampleWithLockOverride" value="" />
+          </SelectWithLockConfig>
+        </option>
+      </DefaultParameters>
+    </option>
+    <option name="historyMap">
+      <map>
+        <entry key="JAVA_CLIENT_PACKAGE">
+          <value>
+            <list>
+              <option value="mapper" />
+            </list>
+          </value>
+        </entry>
+        <entry key="JAVA_MODEL_PACKAGE">
+          <value>
+            <list>
+              <option value="model" />
+            </list>
+          </value>
+        </entry>
+        <entry key="SQL_MAP_PACKAGE">
+          <value>
+            <list>
+              <option value="sqlmap" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastGeneratorParamWrapper">
+      <GeneratorParamWrapper>
+        <option name="defaultTableConfigWrapper">
+          <TableConfigurationWrapper>
+            <option name="domainObjectRenamingRule">
+              <DomainObjectRenamingRule>
+                <option name="replaceString" value="" />
+                <option name="searchString" value="" />
+              </DomainObjectRenamingRule>
+            </option>
+          </TableConfigurationWrapper>
+        </option>
+        <option name="javaClientConfig">
+          <JavaClientGeneratorConfiguration>
+            <option name="configurationType" value="XMLMAPPER" />
+            <option name="targetPackage" value="mapper" />
+            <option name="targetProject" value="$PROJECT_DIR$/src/main/java" />
+          </JavaClientGeneratorConfiguration>
+        </option>
+        <option name="javaModelConfig">
+          <JavaModelGeneratorConfiguration>
+            <option name="targetPackage" value="model" />
+            <option name="targetProject" value="$PROJECT_DIR$/src/main/java" />
+          </JavaModelGeneratorConfiguration>
+        </option>
+        <option name="selectedTables">
+          <list>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="Account" />
+              <option name="tableComment" value="用户财产记录" />
+              <option name="tableName" value="account" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="AccountDetail" />
+              <option name="tableComment" value="资金账户流水" />
+              <option name="tableName" value="account_detail" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="AddressPool" />
+              <option name="tableComment" value="用户的地址池" />
+              <option name="tableName" value="address_pool" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="AdminAddress" />
+              <option name="tableComment" value="平台归账手续费等账户" />
+              <option name="tableName" value="admin_address" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="AdminBank" />
+              <option name="tableComment" value="人民币充值卡号管理" />
+              <option name="tableName" value="admin_bank" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CashRecharge" />
+              <option name="tableComment" value="充值表" />
+              <option name="tableName" value="cash_recharge" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CashRechargeAuditRecord" />
+              <option name="tableComment" value="充值审核记录" />
+              <option name="tableName" value="cash_recharge_audit_record" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CashWithdrawAuditRecord" />
+              <option name="tableComment" value="提现审核记录" />
+              <option name="tableName" value="cash_withdraw_audit_record" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CashWithdrawals" />
+              <option name="tableComment" value="提现表" />
+              <option name="tableName" value="cash_withdrawals" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="Coin" />
+              <option name="tableComment" value="币种配置信息" />
+              <option name="tableName" value="coin" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CoinBalance" />
+              <option name="tableComment" value="币种余额" />
+              <option name="tableName" value="coin_balance" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CoinConfig" />
+              <option name="tableComment" value="币种配置信息" />
+              <option name="tableName" value="coin_config" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CoinRecharge" />
+              <option name="tableComment" value="数字货币充值记录" />
+              <option name="tableName" value="coin_recharge" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CoinServer" />
+              <option name="tableComment" value="监测当前服务器Ip状态" />
+              <option name="tableName" value="coin_server" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CoinType" />
+              <option name="tableComment" value="币种类型" />
+              <option name="tableName" value="coin_type" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CoinWithdraw" />
+              <option name="tableComment" value="数字货币提现记录" />
+              <option name="tableName" value="coin_withdraw" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="CoinWithdrawAuditRecord" />
+              <option name="tableComment" value="提币审核记录" />
+              <option name="tableName" value="coin_withdraw_audit_record" />
+            </TableInfo>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="Config" />
+              <option name="tableComment" value="平台配置信息" />
+              <option name="tableName" value="config" />
+            </TableInfo>
+          </list>
+        </option>
+        <option name="sqlMapConfig">
+          <SqlMapGeneratorConfiguration>
+            <option name="targetPackage" value="sqlmap" />
+            <option name="targetProject" value="$PROJECT_DIR$/src/main/resources" />
+          </SqlMapGeneratorConfiguration>
+        </option>
+        <option name="targetRuntime" value="MyBatis3DynamicSql" />
+      </GeneratorParamWrapper>
+    </option>
+    <option name="tableInfoMap">
+      <map>
+        <entry key="coin-exchange#account_detail">
+          <value>
+            <TableInfo>
+              <option name="database" value="coin-exchange" />
+              <option name="domainName" value="AccountDetail" />
+              <option name="tableComment" value="资金账户流水" />
+              <option name="tableName" value="account_detail" />
+            </TableInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

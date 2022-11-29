@@ -1,0 +1,56 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos-server:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true # admin-service
+      routes:
+        - id: admin-service-router
+          uri: lb://admin-service
+          predicates:
+            - Path=/admin/**
+          filters:
+            - StripPrefix=1  #当前端访问/admin/login-》 login 前端自动去掉
+        - id: test_router
+          uri: http://www.aliyun.com
+          predicates:
+            - Path=/product
+    #    通过网关来完成对两种维度的限流  网关维度   api分组
+    sentinel:
+      transport:
+        dashboard: sentinel-server:8858
+#        port: 8719
+#        clientIp: sentinel-server
+      #      filter:
+#        enabled: true
+      datasource:
+#        ds1.file:
+#          file: classpath:gw-flow.json  #网关加api分组
+#          ruleType: gw-flow   #"resourceMode": 0,1  0网关  1资源类型
+        ds1.nacos:
+          serverAddr: nacos-server:8848
+          dataId: gw-flow
+          ruleType: gw-flow
+        ds2.nacos:
+          serverAddr: nacos-server:8848
+          dataId: api-group
+          ruleType: gw-api-group
+  redis:
+    port: 6380
+    host: redis-server
+    password: oc123
+#      enabled: true #是否启用
+#      eager: true  #是否懒加载  若是懒加载 则需要第一次请求后 才加载近控制台里
+#        ds2.file:
+#          file: classpath:api-group.json
+#          ruleType: gw-api-group
+

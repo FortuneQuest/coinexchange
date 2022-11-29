@@ -1,0 +1,14 @@
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\config\swagger\SwaggerProperties.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\model\WebLog.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\CoinCommonApplication.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\constant\Constants.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\model\R.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\config\swagger\SwaggerAutoConfiguration.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\config\redis\RedisConfig.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\aspect\WebLogAspect.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\config\mybatisplus\MybatisPlusConfig.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\config\jackson\JackSonConfig.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\aspect\GlobalExceptionHandler.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\config\resouce\ResourceServerConfig.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\config\jetcache\JetCacheConfig.java
+D:\workPlace\coinexchange\coin-exchange\coin-common\src\main\java\cn\oc\handler\AutoFiledValueHandler.java
